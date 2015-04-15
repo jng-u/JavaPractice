@@ -19,9 +19,12 @@ public class CarTest {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		Car2 car_1 = new Car2("현대자동차", "제네시스", "검정색", 225, 50000000);
+		/*Car2 car_1 = new Car2("현대자동차", "제네시스", "검정색", 225, 50000000);
 		Car2 car_2 = new Car2("기아자동차", "K7", "흰색", 246, 40000000);
-		Car2 car_3 = new Car2("삼성자동차", "SM7", "회색", 200, 38000000);
+		Car2 car_3 = new Car2("삼성자동차", "SM7", "회색", 200, 38000000);*/
+		Car3 car_1 = new Car3("현대자동차", "제네시스", "검정색", 225, 50000000);
+		Car3 car_2 = new Car3("기아자동차", "K7", "흰색", 246);
+		Car3 car_3 = new Car3("삼성자동차", "SM7", "회색");
 		
 		/*car.setCompany("현대자동차");
 		car.setModel("제네시스");
@@ -45,7 +48,7 @@ public class CarTest {
 		Output(car_3);
 	}
 
-	public static void Output(Car2 car){
+	public static void Output(Car3 car){
 		System.out.println("<<자동차 목록>>");
 		System.out.println("제조사명 : " + car.getCompany());
 		System.out.println("모델명 : " + car.getModel());
