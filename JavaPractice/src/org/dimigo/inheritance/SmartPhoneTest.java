@@ -28,14 +28,14 @@ public class SmartPhoneTest {
 		System.out.println(s1.toString());
 		s1.turnOn();
 		s1.pay();
-		s1.useSpecialFunction(s1);
+		s1.useSpecialFunction();
 		s1.turnOff();
 		System.out.println();
 		
 		System.out.println(s2.toString());
 		s2.turnOn();
 		s2.pay();
-		s2.useSpecialFunction(s2);
+		s2.useSpecialFunction();
 		s2.turnOff();
 		System.out.println();
 	}
